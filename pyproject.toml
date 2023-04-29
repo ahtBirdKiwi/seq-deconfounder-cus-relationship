@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "sequential-deconfounder-customer-relationship"
+version = "0.1.0"
+description = "Thesis paper A Sequential Deconfounder Approach to Estimate Hidden Customer Relationships from Realized Values."
+authors = ["ahtBirdKiwi <at3721@columbia.edu>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "sequential_deconfounder_customer_relationship"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+tqdm = "^4.65.0"
+pandas = "^2.0.1"
+argparse = "^1.4.0"
+numpy = "^1.24.3"
+scipy = "^1.10.1"
+torch = "^2.0.0"
+pytorch-lightning = "^2.0.2"
+scikit-learn = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
